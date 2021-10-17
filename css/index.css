@@ -351,11 +351,11 @@ p {
   margin: 2em 41.1% 2em;
 }
 
-.Section_-accommodations {
+.Section-accommodations {
   padding: 10em;
 }
 
-.Section_-accommodations .container {
+.Section-accommodations .container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -363,23 +363,23 @@ p {
   margin-bottom: 3em;
 }
 
-.Section_-accommodations .container h1 {
+.Section-accommodations .container h1 {
   text-align: center;
 }
 
-.Section_-accommodations .container p {
+.Section-accommodations .container p {
   text-align: center;
 }
 
-.Section_-accommodations .container img {
+.Section-accommodations .container img {
   width: 100%;
 }
 
-.Section_-accommodations .container .para2 {
+.Section-accommodations .container .para2 {
   margin: 8em 0 0 0;
 }
 
-.Section_-accommodations .button {
+.Section-accommodations .button {
   margin: 2em 38.1% 2em;
 }
 
