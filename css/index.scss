@@ -459,29 +459,18 @@ p {
     }
     
     ul {
-        display: grid;
-        grid-template-columns: 49.3vw 49.3vw;
+        // Evenly distibuted
+        display: flex;
+        place-content: start space-evenly;
 
         li {
-            margin: 0 12em 0;
-            img {
-                position: relative;
-                // left: 30%;
-
-                
-            }
-
+            // margin: 0 12em 0;
+            text-align: center;
+            
             p {
-                text-align: center;
-                position: relative;
-                margin-top: 0.2em;
-                font-size: 2.2em;
-            }
-
-            .button {
-                position: relative;
-                top: 1.6em;
-                left: 33.5%;
+                margin-top: 1.2em;
+                margin-bottom: 2em;
+                font-size: 1.7em;
             }
         }
 
