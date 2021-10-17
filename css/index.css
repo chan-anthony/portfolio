@@ -46,6 +46,28 @@ p {
   margin: 0;
 }
 
+.button {
+  font-size: 1.2em;
+  letter-spacing: 1.2px;
+  color: white;
+  background: #498688;
+  padding: 0.2em 1.8em 0.2em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.go-back {
+  font-size: 1.5em;
+  color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+  padding: 0.2em 1.1em 0.7em;
+  border-radius: 0.5em;
+  position: relative;
+}
+
 .Nav {
   background: white;
   padding: 1em;
@@ -183,11 +205,7 @@ p {
 
 .Section-transportation .go-back {
   float: right;
-  font-size: 1.5em;
   background: white;
-  padding: 0.2em 1.1em 0.7em;
-  border-radius: 0.5em;
-  position: relative;
   right: 7.9em;
   bottom: -1.7em;
 }
@@ -250,10 +268,7 @@ p {
 
 .Section-food .go-back {
   float: left;
-  font-size: 1.5em;
   background: #E3FEFF;
-  padding: 0.2em 1.1em 0.7em;
-  border-radius: 0.5em;
   position: relative;
   left: 7.9em;
   bottom: 1.6em;
@@ -262,6 +277,7 @@ p {
 .Section-attractions {
   background: #E3FEFF;
   padding-top: 3em;
+  padding-bottom: 5em;
 }
 
 .Section-attractions h1 {
@@ -319,19 +335,95 @@ p {
   width: 16em;
 }
 
-.Section-attractions .photos .button {
-  font-size: 1.2em;
-  letter-spacing: 1.2px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: white;
-  background: #498688;
-  padding: 0.2em 1.8em 0.2em;
-  border-radius: 1em;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
+.Section-attractions .photos .row-three {
+  margin-bottom: 2em;
+}
+
+.Section-attractions .go-back {
+  float: right;
+  background: #63D6D9;
+  position: relative;
+  right: 7.9em;
+  bottom: -1.6em;
+}
+
+.Section-attractions .button {
+  margin: 2em 41.1% 2em;
+}
+
+.Section_-accommodations {
+  padding: 10em;
+}
+
+.Section_-accommodations .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin-bottom: 3em;
+}
+
+.Section_-accommodations .container h1 {
   text-align: center;
+}
+
+.Section_-accommodations .container p {
+  text-align: center;
+}
+
+.Section_-accommodations .container img {
+  width: 100%;
+}
+
+.Section_-accommodations .container .para2 {
+  margin: 8em 0 0 0;
+}
+
+.Section_-accommodations .button {
+  margin: 2em 38.1% 2em;
+}
+
+.Section-about-city {
+  background: white;
+  padding-bottom: 5em;
+}
+
+.Section-about-city .go-back {
+  background: white;
+  position: relative;
+  margin-left: 43.3%;
+  bottom: 1.7em;
+}
+
+.Section-about-city h1 {
+  text-align: center;
+}
+
+.Section-about-city ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49.3vw 49.3vw;
+      grid-template-columns: 49.3vw 49.3vw;
+}
+
+.Section-about-city ul li {
+  margin: 0 12em 0;
+}
+
+.Section-about-city ul li img {
+  position: relative;
+}
+
+.Section-about-city ul li p {
+  text-align: center;
+  position: relative;
+  margin-top: 0.2em;
+  font-size: 2.2em;
+}
+
+.Section-about-city ul li .button {
+  position: relative;
+  top: 1.6em;
+  left: 33.5%;
 }
 /*# sourceMappingURL=index.css.map */
