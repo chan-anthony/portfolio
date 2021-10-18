@@ -92,12 +92,15 @@ p {
   margin-top: 1.2em;
 }
 
-.hero pre {
-  text-align: center;
-  font-size: 1.3em;
+.hero .text {
+  background: white;
+  margin: 1em 2em auto;
+  padding: 1.2em 0 1.2em;
+  border-radius: 1.2em;
 }
 
-.hero blockquote {
+.hero .text blockquote {
+  display: block;
   text-align: center;
 }
 
