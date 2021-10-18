@@ -1,0 +1,54 @@
+// Import font from google font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgba(96,214,216,1);
+}
+
+// Genreal properties:
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+ol {
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+// Each div properties:
+.Nav {
+    background: white;
+    padding: 1em;
+
+    .logo {
+        margin-left: 1.2em;
+        //Deleting the bottem line of the link
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+
+    }
+
+    li {
+        display: inline;
+        margin: 1em;
+
+        a {
+            color: black;
+        }
+    }
+
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+}
