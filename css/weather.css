@@ -40,16 +40,6 @@ p {
   margin: 0;
 }
 
-.send-message-cta {
-  font-size: 1.2em;
-  letter-spacing: 1.2px;
-  color: white;
-  background: #498688;
-  padding: 0.2em 1.8em 0.2em;
-  border-radius: 1em;
-  border-color: black;
-}
-
 .Nav {
   background: white;
   padding: 1em;
@@ -79,38 +69,21 @@ p {
   place-content: space-between;
 }
 
-.hero {
-  margin-bottom: 6.5em;
-}
-
-.hero hr {
+.hide {
   display: none;
 }
 
-.hero h1 {
+h1 {
   text-align: center;
-  margin-top: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
 }
 
-.hero pre {
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.hero blockquote {
+.elfsight {
   text-align: center;
 }
 
-.hero .inputform {
+.weather-widget {
   text-align: center;
-  margin-top: 4.2em;
 }
-
-.hero .inputform form label {
-  display: block;
-}
-
-.hero .inputform form br {
-  display: block;
-}
-/*# sourceMappingURL=fort.css.map */
+/*# sourceMappingURL=weather.css.map */

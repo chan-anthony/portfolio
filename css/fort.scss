@@ -10,13 +10,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-    
 }
 
 ol {
     margin: 0;
-    
 }
 
 a {
@@ -59,9 +56,9 @@ p {
     border-color: black;
 
     // display
-    margin: 2em 41.1% 2em;
-    text-align: center;  
-    display: block;
+    // margin: 2em 41.1% 2em;
+    // text-align: center;  
+    // display: block;
 }
 
 // Each div properties:
@@ -95,6 +92,7 @@ p {
 }
 
 .hero {
+    margin-bottom: 6.5em;
     hr {
         display: none;
     }
@@ -116,13 +114,17 @@ p {
     // Center all the things: Put the things in div. text-align:center.
     .inputform {
         text-align: center;
-    }
+        margin-top: 4.2em;
 
-    form {
-        label {
-            display: block;
+        form {
+
+            label {
+                display: block;
+            }
+            br {
+                display: block;
+            }
+            
         }
-        
     }
- 
 }
