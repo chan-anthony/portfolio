@@ -17,6 +17,29 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #425F60;
+}
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.2em;
+}
+
+p {
+  margin: 0;
+}
+
 .Nav {
   background: white;
   padding: 1em;
@@ -44,5 +67,9 @@ a {
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+}
+
+.hero hr {
+  display: none;
 }
 /*# sourceMappingURL=fort.css.map */
