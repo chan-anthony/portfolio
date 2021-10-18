@@ -46,6 +46,24 @@ p {
     margin: 0;
 }
 
+.send-message-cta {
+    // font
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+    color: white;
+
+    // background
+    background: #498688;
+    padding: 0.2em 1.8em 0.2em;
+    border-radius: 1em;
+    border-color: black;
+
+    // display
+    margin: 2em 41.1% 2em;
+    text-align: center;  
+    display: block;
+}
+
 // Each div properties:
 .Nav {
     background: white;
@@ -80,4 +98,31 @@ p {
     hr {
         display: none;
     }
+
+    h1 {
+        text-align: center;
+        margin-top: 1.2em;
+    }
+
+    pre {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    blockquote {
+        text-align: center;
+    }
+
+    // Center all the things: Put the things in div. text-align:center.
+    .inputform {
+        text-align: center;
+    }
+
+    form {
+        label {
+            display: block;
+        }
+        
+    }
+ 
 }

@@ -45,29 +45,29 @@ p {
 }
 
 .button {
+    // font
     font-size: 1.2em;
     letter-spacing: 1.2px;
-    // width: fit-content;
     color: white;
-    // height: 200000px;
 
     // background
     background: #498688;
     padding: 0.2em 1.8em 0.2em;
     border-radius: 1em;
 
-    //position
-    // margin: 2em 41.1% 2em;
+    // display
+    margin: 2em 41.1% 2em;
     text-align: center;  
+    display: block;
 }
 
 .go-back {
-    //text
+    // text
     font-size: 1.5em;
     color: black;
     width: fit-content;
 
-    //white background
+    // white background
     background: white;
     padding: 0.2em 1.1em 0.7em;
     border-radius: 0.5em;
@@ -466,6 +466,10 @@ p {
                 margin-bottom: 2em;
                 font-size: 1.7em;
             }
+        }
+
+        .button {
+            margin: 0 0 0 0;
         }
 
     }

@@ -47,7 +47,9 @@ p {
   background: #498688;
   padding: 0.2em 1.8em 0.2em;
   border-radius: 1em;
+  margin: 2em 41.1% 2em;
   text-align: center;
+  display: block;
 }
 
 .go-back {
@@ -408,5 +410,9 @@ p {
   margin-top: 1.2em;
   margin-bottom: 2em;
   font-size: 1.7em;
+}
+
+.Section-about-city ul .button {
+  margin: 0 0 0 0;
 }
 /*# sourceMappingURL=index.css.map */

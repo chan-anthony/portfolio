@@ -40,6 +40,19 @@ p {
   margin: 0;
 }
 
+.send-message-cta {
+  font-size: 1.2em;
+  letter-spacing: 1.2px;
+  color: white;
+  background: #498688;
+  padding: 0.2em 1.8em 0.2em;
+  border-radius: 1em;
+  border-color: black;
+  margin: 2em 41.1% 2em;
+  text-align: center;
+  display: block;
+}
+
 .Nav {
   background: white;
   padding: 1em;
@@ -71,5 +84,27 @@ p {
 
 .hero hr {
   display: none;
+}
+
+.hero h1 {
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+.hero pre {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.hero blockquote {
+  text-align: center;
+}
+
+.hero .inputform {
+  text-align: center;
+}
+
+.hero form label {
+  display: block;
 }
 /*# sourceMappingURL=fort.css.map */
