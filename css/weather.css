@@ -85,5 +85,9 @@ h1 {
 
 .weather-widget {
   text-align: center;
+  height: 409px;
+  margin: auto 5em auto;
+  padding: 2em;
+  border-radius: 0.7em;
 }
 /*# sourceMappingURL=weather.css.map */
