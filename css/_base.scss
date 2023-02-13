@@ -1,0 +1,74 @@
+@use "variables" as v;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(
+    135deg,
+    v.$primary-colour 0%,
+    v.$secondary-colour 100%
+  );
+    color: v.$text-colour;
+  }
+
+.btn {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: v.$text-colour;;
+    border-color: v.$text-colour;
+    border-radius: 0;
+    border-width: 0.1em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+section {
+    padding: 6em 2em 0;
+
+}
+
+li {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.left-col, .right-col {
+    padding: 15px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+    transition: all 1s;
+}
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(+20%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

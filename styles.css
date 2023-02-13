@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(135deg, #101021 0%, #34349a 100%);
+  color: #ffffff;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 0;
+  border-width: 0.1em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+section {
+  padding: 6em 2em 0;
+}
+
+li {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.left-col, .right-col {
+  padding: 15px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-20%);
+  transition: all 1s;
+}
+
+.hidden-right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(20%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.jumbotron {
+  margin: 0;
+  background-color: transparent;
+}
+
+.nav {
+  background: transparent;
+  padding: 1em;
+}
+.nav .nav-options {
+  width: auto;
+}
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#hero {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+#hero .name {
+  font-weight: bold;
+}
+#hero h1 {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+#section-about {
+  padding-top: 3em;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
+}
+#section-about .left-col img {
+  width: 70%;
+}
+#section-about .right-col {
+  display: flex;
+  align-items: center;
+}
+#section-about .right-col .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-delay: 400ms;
+}
+#section-about .right-col .about-wrapper ul {
+  margin-bottom: 3rem;
+}
+#section-about .right-col .about-wrapper ul li {
+  text-align: left;
+}
+#section-about h2 {
+  margin-bottom: 1.5em;
+}
+
+#section-projects {
+  min-height: 100vh;
+  width: 100vw;
+}
+#section-projects h2 {
+  margin-bottom: 1.5em;
+}
+#section-projects .left-col {
+  display: flex;
+  align-items: center;
+}
+#section-projects .left-col .projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-delay: 400ms;
+}
+#section-projects .left-col .projects-wrapper h3 {
+  margin-bottom: 0.5em;
+}
+#section-projects .left-col .projects-wrapper ul {
+  margin-bottom: 3rem;
+}
+#section-projects .left-col .projects-wrapper ul li {
+  text-align: left;
+}
+
+#section-contact {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+#section-contact h2 {
+  margin-bottom: 1.5em;
+}
+
+footer {
+  padding-bottom: 3em;
+  background-image: linear-gradient(135deg, #333 0%, #333 100%);
+}
+footer .social-links {
+  padding-top: 2em;
+}
+footer .social-links .social-links-github {
+  padding-left: 2em;
+}
+footer .social-links .social-links-btn-img {
+  width: 2em;
+}
+footer .back-to-top {
+  display: block;
+  padding-top: 2em;
+}
+footer .back-to-top img {
+  width: 1.3em;
+}
+footer hr {
+  margin: 1rem auto;
+  border: 0;
+  width: 50%;
+  border-top: 2px solid grey;
+}
+footer .footer-text {
+  font-size: 0.5em;
+}/*# sourceMappingURL=styles.css.map */

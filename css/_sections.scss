@@ -1,0 +1,158 @@
+@use "variables" as v;
+
+.nav {
+    background: transparent;
+    padding: 1em;
+
+    .nav-options {
+        width: auto;
+    }
+
+    a {
+        text-decoration: none;
+        color: v.$text-colour;
+    }
+}
+
+#hero {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+    .name {
+        font-weight: bold;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+    }
+}
+
+#section-about {
+    padding-top: 3em;
+    min-height: 100vh;
+    width: 100vw;
+    
+  color: white;
+    .left-col {
+        img {
+            width: 70%;
+        }
+    }
+
+    .right-col {
+        display: flex;
+        align-items: center;
+
+        .about-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition-delay: 400ms;
+
+            ul {
+                margin-bottom: 3rem;
+
+                li {
+                    text-align: left;
+                }
+            }
+
+
+        }
+    }
+
+    h2 {
+        margin-bottom: 1.5em;
+    }
+}
+
+#section-projects {
+
+    min-height: 100vh;
+    width: 100vw;
+
+    h2 {
+        margin-bottom: 1.5em;
+    }
+
+    .left-col {
+        display: flex;
+        align-items: center;
+
+        .projects-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition-delay: 400ms;
+
+            h3 {
+                margin-bottom: 0.5em;
+            }
+    
+            ul {
+                margin-bottom: 3rem;
+        
+                li {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+#section-contact {
+    padding-top: 6em;
+    padding-bottom: 6em;
+
+    h2 {
+        margin-bottom: 1.5em;
+    }
+
+}
+
+footer {
+    padding-bottom: 3em;
+    background-image: linear-gradient(
+    135deg,
+    #333 0%,
+    #333 100%
+  );
+
+    .social-links {
+        padding-top: 2em;
+
+        .social-links-github {
+
+            padding-left: 2em;
+            
+    
+        }
+    
+        .social-links-btn-img {
+            width: 2em;
+        }
+    }
+
+    .back-to-top {
+        display: block;
+        padding-top: 2em;
+
+        img {
+            width: 1.3em;
+        }
+    }
+
+    hr {
+        margin: 1rem auto;
+        border: 0;
+        width: 50%;
+        border-top: 2px solid grey;
+    }
+
+    .footer-text {
+        font-size: 0.5em;
+    }
+}
