@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -22,6 +26,7 @@ h2 {
   font-size: 4em;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -30,7 +35,7 @@ h3 {
 }
 
 section {
-  padding: 6em 2em 0;
+  padding: 3em 2em 3em;
 }
 
 li {
@@ -53,6 +58,13 @@ p {
   transition: all 0.5s;
 }
 
+.hidden-long {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-70%);
+  transition: all 0.5s;
+}
+
 .hidden-right {
   opacity: 0;
   filter: blur(5px);
@@ -64,6 +76,7 @@ p {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+  transition-delay: 100ms;
 }
 
 .jumbotron {
@@ -98,14 +111,13 @@ p {
 }
 
 #section-about {
-  padding-top: 3em;
   min-height: 100vh;
   width: 100vw;
   color: white;
 }
 #section-about .skills-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   padding-top: 3em;
 }
@@ -145,7 +157,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 #section-about .right-col .about-wrapper ul {
   margin-bottom: 3rem;
@@ -153,16 +165,10 @@ p {
 #section-about .right-col .about-wrapper ul li {
   text-align: left;
 }
-#section-about h2 {
-  margin-bottom: 1.5em;
-}
 
 #section-projects {
   min-height: 100vh;
   width: 100vw;
-}
-#section-projects h2 {
-  margin-bottom: 1.5em;
 }
 #section-projects .left-col {
   display: flex;
@@ -172,7 +178,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition-delay: 200ms;
+  transition-delay: 300ms;
 }
 #section-projects .left-col .projects-wrapper h3 {
   margin-bottom: 0.5em;
@@ -183,13 +189,46 @@ p {
 #section-projects .left-col .projects-wrapper ul li {
   text-align: left;
 }
+#section-projects .price-prediction-img {
+  width: 90%;
+}
+
+#section-work {
+  min-height: 100vh;
+  width: 100vw;
+}
+#section-work iframe {
+  display: block;
+  border: 0;
+}
+#section-work p {
+  text-align: left;
+}
+#section-work .skill-cards {
+  display: flex;
+}
+#section-work .skill-card {
+  display: inline-block;
+  width: 135px;
+  height: 161px;
+  padding: 1em;
+  margin: 1em;
+  background-image: linear-gradient(135deg, #333 0%, #161616 100%);
+  border-radius: 1em;
+}
+#section-work .skill-card p {
+  text-align: center;
+}
+#section-work .skill-card:nth-child(2) {
+  transition-delay: 200ms;
+}
+#section-work .skill-card:nth-child(3) {
+  transition-delay: 300ms;
+}
 
 #section-contact {
   padding-top: 6em;
   padding-bottom: 6em;
-}
-#section-contact h2 {
-  margin-bottom: 1.5em;
 }
 
 footer {

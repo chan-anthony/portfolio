@@ -9,7 +9,9 @@ const observer = new IntersectionObserver((entities) => {
   });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden,.hidden-right');
+const hiddenElements = document.querySelectorAll(
+  '.hidden,.hidden-long,.hidden-right'
+);
 hiddenElements.forEach((element) => observer.observe(element));
 
 // Get current year
