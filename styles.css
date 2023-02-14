@@ -82,6 +82,14 @@ img {
   transition-delay: 100ms;
 }
 
+@media only screen and (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 1.5em;
+  }
+  li, p {
+    font-size: 1em;
+  }
+}
 .jumbotron {
   margin: 0;
   background-color: transparent;
