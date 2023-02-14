@@ -16,7 +16,7 @@ body {
     v.$secondary-colour 100%
   );
     color: v.$text-colour;
-    overflow-x: hidden; // Hidden transformed elements. make the white space on the right disappeared
+    // overflow-x: hidden; // Hidden transformed elements. make the white space on the right disappeared
     
   }
 
@@ -54,6 +54,10 @@ li {
 
 p {
     font-size: 1.3em;
+}
+
+img {
+    max-width: 100%;
 }
 
 .left-col, .right-col {

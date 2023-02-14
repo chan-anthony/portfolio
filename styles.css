@@ -9,7 +9,6 @@ body {
   scroll-behavior: smooth;
   background-image: linear-gradient(135deg, #101021 0%, #34349a 100%);
   color: #ffffff;
-  overflow-x: hidden;
 }
 
 .btn {
@@ -45,6 +44,10 @@ li {
 
 p {
   font-size: 1.3em;
+}
+
+img {
+  max-width: 100%;
 }
 
 .left-col, .right-col {
