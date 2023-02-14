@@ -146,11 +146,12 @@
     }
     .skill-cards {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .skill-card {
         display: inline-block;
-        width: 135px;
+        width: auto;
         height: 161px;
         padding: 1em;
         margin: 1em;
@@ -160,6 +161,11 @@
             #161616 100%
           );
         border-radius: 1em;
+
+        i {
+            width: 100px;
+            display: block;
+        }
 
         p {
             text-align: center;

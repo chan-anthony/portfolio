@@ -217,15 +217,20 @@ img {
 }
 #section-work .skill-cards {
   display: flex;
+  flex-wrap: wrap;
 }
 #section-work .skill-card {
   display: inline-block;
-  width: 135px;
+  width: auto;
   height: 161px;
   padding: 1em;
   margin: 1em;
   background-image: linear-gradient(135deg, #333 0%, #161616 100%);
   border-radius: 1em;
+}
+#section-work .skill-card i {
+  width: 100px;
+  display: block;
 }
 #section-work .skill-card p {
   text-align: center;
