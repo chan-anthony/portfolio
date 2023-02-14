@@ -11,8 +11,13 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/47bd9ba558.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="js/app.js"></script>
+    <link rel="icon" href="images/codepen.png" />
   </head>
   <body>
     <div class="nav">
@@ -77,6 +82,66 @@
           </div>
         </div>
       </div>
+      <div class="skills-container">
+        <table class="skills">
+          <tr>
+            <th class="title" colspan="3"><h3>Prgramming Languages</h3></th>
+          </tr>
+          <tr>
+            <th>
+              <i class="fa-brands fa-python fa-4x"></i>
+              <p>Python</p>
+            </th>
+            <th>
+              <i class="fa-brands fa-java fa-4x"></i>
+              <p>Java</p>
+            </th>
+            <th>
+              <i class="fa-sharp fa-solid fa-c fa-4x"></i>
+              <p>C++</p>
+            </th>
+          </tr>
+        </table>
+        <table class="skills">
+          <tr>
+            <th class="title" colspan="3"><h3>Web Design</h3></th>
+          </tr>
+          <tr>
+            <th>
+              <i class="fa-brands fa-figma fa-4x"></i>
+              <p>Figma</p>
+            </th>
+            <th>
+              <i class="fa-brands fa-sass fa-4x"></i>
+              <p>SASS</p>
+            </th>
+            <th>
+              <i class="fa-brands fa-square-js fa-4x"></i>
+              <p>JS</p>
+            </th>
+          </tr>
+        </table>
+        <table class="skills">
+          <tr>
+            <th class="title" colspan="3"><h3>Self-hosted Server</h3></th>
+          </tr>
+          <tr>
+            <th>
+              <i class="fa-brands fa-docker fa-4x"></i>
+              <p>Docker</p>
+            </th>
+            <th>
+              <img src="images/Nginx.png" alt="">
+              <p class="img-p">Nginx</p>
+            </th>
+            <th>
+              <img src="images/Pihole.png" alt="">
+              <p class="img-p">Pihole</p>
+            </th>
+            </th>
+          </tr>
+        </table>
+      </div>
     </section>
 
     <section id="section-projects">
@@ -131,34 +196,27 @@
 
     <footer class="footer navbar-static-bottom">
       <div class="social-links">
-        <a
-          class="social-links-linkedin"
-          href="https://www.linkedin.com/in/anthonycphin/"
-          target="_blank"
-        >
-          <img
-            class="social-links-btn-img"
-            src="images/linkedin-in.svg"
-            alt="linkedin"
-          />
+        <a href="https://www.linkedin.com/in/anthonycphin/" target="_blank">
+          <i
+            class="fa-brands fa-linkedin-in fa-2x social-link"
+            href="https://www.linkedin.com/in/anthonycphin/"
+          ></i>
         </a>
         <a
           class="social-links-github"
           href="https://github.com/chan-anthony"
           target="_blank"
         >
-          <img
-            class="social-links-btn-img"
-            src="images/github.svg"
-            alt="github"
-          />
+          <i class="fa-brands fa-github fa-2x social-link"></i>
         </a>
       </div>
       <a href="#top" class="back-to-top">
         <img src="images/angle-up-solid.svg" alt="angle-up" />
       </a>
       <hr />
-      <p class="footer-text">© 2023 - Developed by Anthony Chan</p>
+      <p class="footer-text">
+        © <span id="year"></span> - Developed by Anthony Chan
+      </p>
     </footer>
 
     <script src="js/vanilla-tilt.js"></script>

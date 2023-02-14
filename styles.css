@@ -5,6 +5,7 @@ body {
   scroll-behavior: smooth;
   background-image: linear-gradient(135deg, #101021 0%, #34349a 100%);
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 .btn {
@@ -48,15 +49,15 @@ p {
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-20%);
-  transition: all 1s;
+  transform: translateX(-4%);
+  transition: all 0.5s;
 }
 
 .hidden-right {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(20%);
-  transition: all 1s;
+  transform: translateX(4%);
+  transition: all 0.5s;
 }
 
 .show {
@@ -102,6 +103,37 @@ p {
   width: 100vw;
   color: white;
 }
+#section-about .skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 3em;
+}
+#section-about .skills {
+  display: block;
+  margin: 4em auto 0;
+}
+#section-about .skills th {
+  width: 133px;
+}
+#section-about .skills th h3 {
+  padding-bottom: 0.8em;
+}
+#section-about .skills th i {
+  padding: 0 0.4em 0;
+}
+#section-about .skills th img {
+  padding: 0 0.4em 0;
+  width: 4em;
+  height: auto;
+}
+#section-about .skills th p {
+  padding: 0 0.4em 0;
+}
+#section-about .skills th .img-p {
+  position: relative;
+  top: 0.3em;
+}
 #section-about .left-col img {
   width: 70%;
 }
@@ -113,7 +145,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition-delay: 400ms;
+  transition-delay: 200ms;
 }
 #section-about .right-col .about-wrapper ul {
   margin-bottom: 3rem;
@@ -140,7 +172,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition-delay: 400ms;
+  transition-delay: 200ms;
 }
 #section-projects .left-col .projects-wrapper h3 {
   margin-bottom: 0.5em;
@@ -161,17 +193,17 @@ p {
 }
 
 footer {
-  padding-bottom: 3em;
+  padding-bottom: 1.5em;
   background-image: linear-gradient(135deg, #333 0%, #333 100%);
 }
 footer .social-links {
   padding-top: 2em;
 }
-footer .social-links .social-links-github {
-  padding-left: 2em;
+footer .social-links a {
+  color: inherit;
 }
-footer .social-links .social-links-btn-img {
-  width: 2em;
+footer .social-links .social-link {
+  padding: 0 0.5em 0;
 }
 footer .back-to-top {
   display: block;

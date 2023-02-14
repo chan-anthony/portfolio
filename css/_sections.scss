@@ -34,8 +34,42 @@
     padding-top: 3em;
     min-height: 100vh;
     width: 100vw;
+    color: white;
+
+    .skills-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 3em;
+    }
+
+    .skills {
+        display: block;
+        margin: 4em auto 0;
     
-  color: white;
+        th {
+            width: 133px;
+            h3 {
+                padding-bottom: 0.8em;
+            }
+            i {
+                padding: 0 0.4em 0;
+            }
+            img {
+                padding: 0 0.4em 0;
+                width: 4em;
+                height: auto;
+            }
+            p {
+                padding: 0 0.4em 0;
+            }
+            .img-p {
+                position: relative;
+                top: 0.3em;
+            }
+        }
+    }
+
     .left-col {
         img {
             width: 70%;
@@ -50,7 +84,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition-delay: 400ms;
+            transition-delay: 200ms;
 
             ul {
                 margin-bottom: 3rem;
@@ -86,7 +120,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition-delay: 400ms;
+            transition-delay: 200ms;
 
             h3 {
                 margin-bottom: 0.5em;
@@ -114,7 +148,7 @@
 }
 
 footer {
-    padding-bottom: 3em;
+    padding-bottom: 1.5em;
     background-image: linear-gradient(
     135deg,
     #333 0%,
@@ -124,15 +158,12 @@ footer {
     .social-links {
         padding-top: 2em;
 
-        .social-links-github {
-
-            padding-left: 2em;
-            
-    
+        a {
+            color: inherit;
         }
-    
-        .social-links-btn-img {
-            width: 2em;
+
+        .social-link {
+            padding: 0 0.5em 0;
         }
     }
 

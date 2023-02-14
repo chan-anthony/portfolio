@@ -12,6 +12,8 @@ body {
     v.$secondary-colour 100%
   );
     color: v.$text-colour;
+    overflow-x: hidden; // Hidden transformed elements. make the white space on the right disappeared
+    
   }
 
 .btn {
@@ -56,15 +58,15 @@ p {
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-20%);
-    transition: all 1s;
+    transform: translateX(-4%);
+    transition: all 0.5s;
 }
 
 .hidden-right {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(+20%);
-    transition: all 1s;
+    transform: translateX(+4%);
+    transition: all 0.5s;
 }
 
 .show {
