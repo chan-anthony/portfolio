@@ -96,6 +96,10 @@ img {
   background-color: transparent;
 }
 
+.nav-item {
+  padding: 0 0.3em 0;
+}
+
 .nav {
   background: transparent;
   padding: 1em;
