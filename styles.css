@@ -194,6 +194,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   transition-delay: 300ms;
 }
 #section-projects .left-col .projects-wrapper h3 {
