@@ -202,6 +202,7 @@ img {
 }
 #section-projects .left-col .projects-wrapper ul {
   margin-bottom: 3rem;
+  width: 100%;
 }
 #section-projects .left-col .projects-wrapper ul li {
   text-align: left;
